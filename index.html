@@ -22,7 +22,7 @@
                     <label for="weight">Peso em Kg</label>
                     <div class="input-field">
                         <i class="fa-sharp fa-solid fa-weight-hanging"></i>
-                        <input type="number" id="weight" required placeholder="Seu peso">
+                        <input type="number" id="weight" inputmode="numeric" required placeholder="Seu peso">
                         <span>Kg</span>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     <label for="height">Altura em metros</label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler"></i>
-                        <input type="number" id="height" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any" 
+                        <input type="number" id="height" inputmode="numeric" pattern="[0-9]+([,\.][0-9]+)?" min="0" step="any" 
                             required placeholder="Sua altura">
                         <span>m</span>
                     </div>
@@ -39,7 +39,7 @@
 
                 <div id="buttons">
                     <button type="submit" id="btn-calculate">Calcular</button>
-                    <button type="reset" id="btn-clean">Limpar</button>
+                    <button type="submit" onclick="refreshPage();" id="btn-refresh">Limpar</button>
                 </div>
                
             </form>

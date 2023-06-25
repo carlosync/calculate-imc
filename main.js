@@ -1,5 +1,9 @@
 const form = document.getElementById('form')
 
+function refreshPage() {
+    location.reload(true);
+}
+
 form.addEventListener('submit', function(event){
     event.preventDefault();
 

@@ -116,7 +116,7 @@ body {
     cursor:  pointer;
     width: 50%;
 }
-#btn-clean {
+#btn-refresh {
     border: none;
     font-size: 1.25rem;
     font-weight: bold;
